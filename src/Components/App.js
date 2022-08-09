@@ -1,9 +1,16 @@
+import "../styles/App.css";
+import Layout from "./Layout";
+import Home from "./Pages/Home";
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello Nahid!</h1>
+      <Layout>
+        <Home></Home>
+      </Layout>
     </div>
   );
 }
 
 export default App;
+

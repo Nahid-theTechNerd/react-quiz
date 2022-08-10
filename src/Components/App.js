@@ -1,6 +1,6 @@
 import "../styles/App.css";
 import Layout from "./Layout";
-import Login from "./Pages/Login";
+import Quiz from "./Pages/Quiz";
 // import Home from "./Pages/Home";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Layout>
         {/* Write the main component name here */}
-        <Login></Login>
+        <Quiz></Quiz>
       </Layout>
     </div>
   );

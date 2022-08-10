@@ -1,14 +1,13 @@
 import "../styles/App.css";
 import Layout from "./Layout";
-import Quiz from "./Pages/Quiz";
-// import Home from "./Pages/Home";
+import Result from "./Pages/Result";
 
 function App() {
   return (
     <div className="App">
       <Layout>
         {/* Write the main component name here */}
-        <Quiz></Quiz>
+        <Result></Result>
       </Layout>
     </div>
   );
